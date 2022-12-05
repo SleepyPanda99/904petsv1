@@ -1056,7 +1056,7 @@ textarea {
   position: absolute;
   height: 65%;
   width: 100%;
-  // background-color: #FFB141;
+  background-color: #FFB141;
   top: calc(100%);
   transform-origin: center top;
 
@@ -1066,7 +1066,7 @@ textarea {
     width: 45px;
     height: 45px;
     background-color: var(--color);
-    // background-color: blue;
+    background-color: blue;
     position: absolute;
     border-radius: 50%;
     top: -22.5px;
