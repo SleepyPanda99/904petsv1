@@ -252,12 +252,13 @@ ul {
     li:not(:last-child) {
         border-bottom: 1px dotted #a190b6;
     }  
-}
+
     .btn {
         width: 125px;
         margin-right: auto;
         margin-left: auto;
     }
+}
 
 @media (min-width: 768px) {
     header,
@@ -507,7 +508,7 @@ textarea {
   #form_button {
       display: flex;
 }
-
+}
 @media screen and (max-width: 480px) {
 
   
