@@ -247,7 +247,7 @@ ul {
         margin-left: auto;
     }
    nav a {
-       font-size: 1.25rem;
+       font-size: 1.5rem;
    }
     li:not(:last-child) {
         border-bottom: 1px dotted #a190b6;
@@ -295,7 +295,9 @@ ul {
         align-items: flex-start;
     }
     
-    h2, h3 {
+	h2, 
+	h3,
+	h5 {
         font-size: 3.25rem;
         text-align: center;
         letter-spacing: 2px;
@@ -304,7 +306,7 @@ ul {
     h4 {
         font-size: 1.75rem;
     }
-    
+	
     .subheading {
         font-size: 1.75rem;
     }
