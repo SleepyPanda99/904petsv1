@@ -240,8 +240,10 @@ ul {
     h5 {
         font-size: 1.90em;
     }
+    .subheading {
+	letter-spacing: 2px;
     nav { 
-        margin-top: 1em;
+        margin-top: .5em;
         width: 175px;
         margin-right: auto;
         margin-left: auto;
