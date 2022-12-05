@@ -1061,8 +1061,7 @@ textarea {
   transform-origin: center top;
 
   &:before {
-    joint
-    content: "";
+    joint content: "";
     width: 45px;
     height: 45px;
     background-color: var(--color);
