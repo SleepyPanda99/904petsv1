@@ -18,68 +18,47 @@
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<h1>
-				<div class="wrap">
-					<div class="circle">
-						<img src="images/904.Pets.Logo.Small.jpg" alt="904 Pets Logo" class="logo">
-					</div>
-				<span class="subheading">Joshua Predieri</span>
-					
-			</h1>
-			
-			<!-- Site Navigation -->
-			<nav>
-				<ul>
-					<li><a href="#pet_posts">&bull; 904 Pet Posts &bull;</a></li>
-					<li><a href="https://form.jotform.com/223355190091148" target="_blank" rel="noopener noreferrer">&bull; Client Inquiries &bull;</a></li>
-					<li><a href="#contact_us">&bull; Contact Us &bull;</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+     <!-- Site Navigation -->
+
+        <header id="navbar">
+            <nav class="navbar-container container">
+                <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                    <ul class="navbar-links">
+                      <li class="navbar-item"><a class="navbar-link" href="https://form.jotform.com/223355190091148" target="_blank" rel="noopener noreferrer">Client Inquiries</a></li>
+                      <li class="navbar-item"><a class="navbar-link" href="services.html">Services</a></li>
+                      <li class="navbar-item"><a class="navbar-link" href="/about">About Us</a></li>
+                      <li class="navbar-item"><a class="navbar-link" href="#contact_us">Contact Us</a></li>
+                      <li class="navbar-item"><a href="petposts.html">904 Pet Posts</a></li>
+                    </ul>
+                  </div>
+              <a href="/" class="home-link">
+                904 PETS
+              </a>
+              <a href="#pet_posts"><img src="images/whitedogicon.png" alt="904 Pets White Dog Icon" class="dog-icon"></a>
+              
+            </nav>
+          </header>
+          <script src="navbarToggle.js"></script>
+
+		<!-----Landing Page----->
 	<main>
 		<section>
-			<div class="container">
-				<h2>Welcome to 904 Pets!</h2>
-				<img  src="images/904.Pets.Logo.Large.jpg" alt="Owner of 904 Pets smiling" class="main-image">
-				
-				<h2>&bull; About Us &bull;</h2>
-				<img  src="images/904.pets.joshua.jpg" alt="Owner of 904 Pets smiling" class="feature-image">
-				<h4>Joshua Predieri established 904 Pets LLC in 2012.</h4>
-				<p>Josh is a Navy Veteran, UNF Graduate, a Jaguars fan and of course an animal lover! He has gained many clients and friends across the 904 area; pets and people alike. Every animal he meets immediately falls in love because he treats them like the Kings and Queens they are!</p>
-				<p>Liscensed, bonded and insured - you know your pets are in the right hands when they are with Josh.<p>
-				<p>Services include overnight pet sitting, dog walking and daily pet check-ins.</p>
-				<a href="https://form.jotform.com/223355190091148" target="_blank" rel="noopener noreferrer" class="btn btn-mid">Client Inquiries</a>
-				<a href="#contact_us" class="btn btn-mid">Contact Us</a>
+			<div class="main-container">
+			    <img src="images/904.Pets.Logo.Large.jpg" alt="Large Logo with green and gold lettering for 904 Pets. Licensed, Bonded, and Insured. Established 2012." class="main-image">
+                    <div class="btn-section"></div>
+                        <a href="https://form.jotform.com/223355190091148" target="_blank" rel="noopener noreferrer" class="btn btn-dark">New Clients</a>
+                        <a href="services.html" class="btn btn-mid">Services</a>
+                        <a href="#contact_us" class="btn btn-dark">Contact Us</a>
+                    </div>
 			</div>
 		</section>
-			
-		<section class="section-two">
-			<div class="container">
-                
-				<h3><a id="pet_posts">&bull; What Have the Pets of 904 Been Up To? &bull;</a></h3>
-				<div class="section-two-image-container">
-					<div class="feature-item">
-						<img src="images/904.pets.Major.English.Staffy.jpg" alt="English Staffy Dog" class="feature-image">
-						<p>Major the English Staffy</p>
-					</div>
-					<div class="feature-item">
-						<img src="images/904.pets.gia.cavapoo.jpg" alt="Cavapoo Dog" class="feature-image">
-						<p>Gia the Cavapoo</p>
-					</div>	
-					<div class="feature-item">
-						<img src="images/904.pets.mikku.greatdane.jpg" alt="Great Dane Dog" class="feature-image">
-						<p>Mikku the Great Dane</p>
-					</div>		
-				</div>
-                 <div class="widget" data-mc-src="f885838b-5d18-4abb-aaa9-d89c319c4b76#instagram"></div>
-          
-                    <script 
-                        src="https://cdn2.woxo.tech/a.js#638a272898d114788096f215" 
-                        async data-usrc>
-                    </script>
+
+		<!---- Social Links
 				<h5><a id="contact_us">&bull; Find Us On Social Media &bull;</a></h5>
 				<div class="btn-social-wrap">
 				<a href="https://www.facebook.com/people/904-Pets-LLC/100087343834236/" target="_blank" rel="noopener noreferrer" class="btn btn-light">Facebook</a>
@@ -88,6 +67,9 @@
 				</div>
 			</div>
 		</section>
+        ------>
+
+        <!----
 			  <div id="container-form">
   <h2>&bull; Keep in Touch &bull;</h2>
   <div class="underline">
@@ -129,12 +111,17 @@
     <div class="submit">
       <input type="submit" value="Send Message" id="form_button" />
     </div>
-  </form><!-- // End form -->
-</div><!-- // End #container -->
-		<footer>
-			<p>Thank you for visiting our site!</p>
-			<p>&copy; 2022 904Pets.com</p>
-		</footer>
+  </form>
+</div> 
+END FORM --->
+
+		<div class="footer">
+            <a href="https://m.facebook.com/people/904-Pets-LLC/100087343834236/"><img src="images/social.icon.facebook.png" alt="Facebook icon" class="social-icons"></a>
+            <a href="https://www.instagram.com/904pets/"><img src="images/social.icon.instagram.png" alt="Instagram icon" class="social-icons"></a>
+            <p>&copy; 2023 904Pets.com</p>
+            <a href="https://mobile.twitter.com/904pets"><img src="images/social.icon.twitter.png" alt="Twitter icon" class="social-icons"></a>
+            <a href="mailto:joshuapredieri@yahoo.com"><img src="images/white-email-icon-2.jpg.png" alt="Email icon" class="social-icons"></a>
+        </div>
 	</main>
 </body>
 </html>
